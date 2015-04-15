@@ -3,7 +3,8 @@ package hello;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
+		String msg = GetString.getText();
+		System.out.println(msg);
 
 	}
 
